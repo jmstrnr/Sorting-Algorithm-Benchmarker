@@ -2,5 +2,5 @@
 /shelf/
 /workspace.xml
 .DS_Store
-/.idea/
+../.idea/
 Algorithm Benchmarker.iml
