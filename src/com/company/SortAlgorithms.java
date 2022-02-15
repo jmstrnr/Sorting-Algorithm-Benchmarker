@@ -2,7 +2,7 @@ package com.company;
 
 public class SortAlgorithms {
 
-    // Bubble Sort (source: GMIT lecture notes)
+    // Bubble Sort 
     public static void bubbleSort(int[] arr) {
         int outer, inner;
         for (outer = arr.length -1; outer > 0; outer--) {   // Moving left from the last element/second last element/etc
@@ -16,7 +16,7 @@ public class SortAlgorithms {
         }
     }
 
-    // Selection Sort (source: GMIT lecture notes)
+    // Selection Sort 
     public static void selectionSort(int[] arr) {
         int outer=0, inner = 0, min = 0;
         for (outer = 0; outer < arr.length - 1; outer++) {  // outer counts up
@@ -34,7 +34,7 @@ public class SortAlgorithms {
         }
     }
 
-    // Insertion Sort (source: GMIT lecture notes)
+    // Insertion Sort
     public static void insertionSort(int[] arr) {
         for (int i = 1; i < arr.length; i++) {
             int key = arr[i];  // set key variable to the value to be inserted
@@ -48,7 +48,7 @@ public class SortAlgorithms {
         }
     }
 
-    // Merge Sort (source: https://www.baeldung.com/java-merge-sort)
+    // Merge Sort 
     public static void mergeSort(int[] arr, int arrayLength) {
         if (arrayLength <= 1) {  // Return if the input size is 0 or 1
             return;
@@ -95,7 +95,7 @@ public class SortAlgorithms {
         }
     }
 
-    // Counting Sort (source: https://www.programiz.com/dsa/counting-sort)
+    // Counting Sort 
     public static void countingSort(int[] arr, int arrayLength) {
 
         // The output  array that will be used to store sorted output
