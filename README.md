@@ -1,6 +1,6 @@
 # Sorting-Algorithm-Benchmarker
 
-This application runs various sorting algorithms and compares how long it takes for them to sort integers arrays of various sizes.
+This application runs multiple sorting algorithms and compares how long it takes for them to sort integers arrays of various sizes.
 
 Algorithms used: Bubble Sort, Selection Sort, Insertion Sort, Merge Sort and Counting Sort
 
